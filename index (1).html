@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Basketball Painter Program</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+  <style>
+    body { margin:0; font-family:'Montserrat', sans-serif; color:#222; line-height:1.6; background: #fff; }
+    nav { position:fixed; top:0;width:100%; background:#fff; padding:1rem; display:flex; justify-content:center; box-shadow:0 1px 5px rgba(0,0,0,0.1); z-index:100; }
+    nav a { margin:0 1rem; text-decoration:none; color:#222; font-weight:700; }
+    section { padding:100px 20px; max-width:800px; margin:0 auto; }
+    .hero { text-align:center; padding-top:200px; }
+    .hero h1 { font-size:3rem; margin-bottom:.5em; }
+    .hero p { font-size:1.2rem; margin-bottom:1em; }
+    .btn { margin:0 .5em; padding:.75em 1.5em; border:none; background:#000; color:#fff; font-size:1rem; cursor:pointer; }
+    .members { display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:1rem; text-align:center; }
+    .member img { width:100px; height:100px; object-fit:cover; border-radius:50%; margin-bottom:0.5em; }
+    .videos iframe { width:100%; max-width:560px; height:315px; margin-bottom:1em; }
+    footer { text-align:center; padding:2rem 1rem; font-size:.9rem; background:#f8f8f8; margin-top:2rem; }
+    @media(max-width:600px){ .hero h1{font-size:2rem;} }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#hero">Home</a>
+  <a href="#about">About</a>
+  <a href="#members">Members</a>
+  <a href="#spotlight">Spotlight</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="hero" class="hero">
+  <h1>Discover and Support Rising Basketball Creators</h1>
+  <p>We support and showcase talented creators bringing art to the court.</p>
+  <button class="btn" onclick="window.location.href='#contact'">Apply to Join</button>
+  <button class="btn" onclick="window.location.href='#about'">Learn More</button>
+</section>
+
+<section id="about">
+  <h2>What is the Basketball Painter Program?</h2>
+  <p>The Basketball Painter Program is a Gorilla Tag custom badge given to creators who have great content and deserve it.</p>
+</section>
+
+<section id="members">
+  <h2>Meet Our Members</h2>
+  <div class="members">
+    <div class="member"><img src="https://via.placeholder.com/100" alt="VibiVR"><p>VibiVR</p></div>
+    <div class="member"><img src="https://via.placeholder.com/100" alt="Saalmon"><p>Saalmon</p></div>
+    <div class="member"><img src="https://via.placeholder.com/100" alt="JaxonVR"><p>JaxonVR</p></div>
+    <div class="member"><img src="https://via.placeholder.com/100" alt="Nexus"><p>Nexus</p></div>
+    <div class="member"><img src="https://via.placeholder.com/100" alt="WeetVR"><p>WeetVR</p></div>
+  </div>
+</section>
+
+<section id="spotlight">
+  <h2>Member Spotlight</h2>
+  <div class="videos">
+    <p>No video spotlight yet. Stay tuned!</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Get Involved</h2>
+  <p>Join our Discord with 5,000+ members!</p>
+  <button class="btn" onclick="window.location.href='https://discord.gg/RJpCqJw9E4'">Join Discord</button>
+  <p>Email us at <a href="mailto:bradlynavarrete468@gmail.com">bradlynavarrete468@gmail.com</a></p>
+</section>
+
+<footer>
+  <p><strong>Quick Links:</strong> Home • About • Contact</p>
+  <p>Email: bradlynavarrete468@gmail.com • <a href="https://discord.gg/RJpCqJw9E4">Discord</a></p>
+  <p>© 2025 Basketball Painter Program. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
